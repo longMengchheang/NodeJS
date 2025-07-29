@@ -1,0 +1,26 @@
+<%- include('components/header.ejs') %>
+
+<h1>Wellcome to homepage</h1>
+</label>List of products</label>
+
+<ul>
+    <% products.forEach(product=>{ %>
+    <li><%= product.title %></li>
+
+    <% }) %>
+</ul>
+
+<label>Title of Homepage</label>
+
+<ul>
+    <% home.forEach(home0=>{ %>
+    <li><%= home0.title %></li>
+
+    <% }) %>
+</ul>
+
+<ul>
+    <li><%= products[0].title %></li>  <!-- First product's title -->
+</ul>
+
+
